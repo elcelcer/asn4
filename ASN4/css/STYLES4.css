@@ -1,0 +1,107 @@
+/*global styles*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: Georgia, serif;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #cc2ccc;
+    margin: 0;
+    padding: 0;
+}
+img { 
+    width: 300px;
+    float: left;
+    margin-right: 12px;
+}
+
+/*Profile*/
+h1 {
+    color:#9316af;
+   
+}
+h2 {
+    color:#560869;
+    margin: 0;
+    font-weight: 600;
+    font-size: 26px;
+    
+}
+.title {
+    font-style:italic;
+    color: #8C7AA9;
+}
+.top-title {
+    background: #10a8ad;
+    padding: 8px;
+    border-radius: 11px;
+    text-align: center;
+    font-weight: 900;
+    position: fixed;
+
+}
+.projects {
+background: #1c92af;
+color:antiquewhite;
+border-top: 1px dashed #560869;
+border-bottom: 1px dashed #560869;
+}
+.work-experience {
+    background: #04bfee;
+    color:antiquewhite;
+    border-bottom: 1px dashed #560869;
+    
+}
+.education {
+    background:rgb(34, 147, 182);
+    color: antiquewhite;
+    border-bottom: 1px dashed #560869;
+    
+}
+footer {
+    background: rgb(29, 167, 172);
+    padding-bottom: 8px;
+
+}
+a:link {
+    color:rgb(17, 0, 255);
+}
+a:visited {
+    color:rgb(92, 236, 116);
+}
+a:focus {
+    outline: 2px solid whitesmoke;
+}
+a:active { 
+    color:azure;
+}
+a.hoover {
+    color: yellowgreen;
+}
+div{
+    display: block;
+    
+}
+.content-wrap {
+    width: 860px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+.title {
+    text-align: center;
+    font-weight: 666;
+    
+}
+.top-title {
+    text-align: center;
+    font-weight: 900;
+    position: sticky;
+}
+.clear {
+    clear: both; /*clears left & right floats*/
+}
+
